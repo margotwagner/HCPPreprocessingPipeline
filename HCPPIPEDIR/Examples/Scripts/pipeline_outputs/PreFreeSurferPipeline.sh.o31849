@@ -1,0 +1,148 @@
+========================================
+  DIRECTORY: /home/mwagner/projects/hcp/HCPPIPEDIR
+    PRODUCT: HCP Pipeline Scripts
+    VERSION: v4.3.0
+========================================
+Tue May 10 11:31:40 PDT 2022:PreFreeSurferPipeline.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+Tue May 10 11:31:40 PDT 2022:PreFreeSurferPipeline.sh: FSLDIR: /home/mwagner/bin/fsl
+Tue May 10 11:31:40 PDT 2022:PreFreeSurferPipeline.sh: HCPPIPEDIR_Global: /home/mwagner/projects/hcp/HCPPIPEDIR/global/scripts
+Tue May 10 11:31:40 PDT 2022:PreFreeSurferPipeline.sh: Platform Information Follows: 
+Linux porter 4.19.0-20-amd64 #1 SMP Debian 4.19.235-1 (2022-03-17) x86_64 GNU/Linux
+Tue May 10 11:31:40 PDT 2022:PreFreeSurferPipeline.sh: Parsing Command Line Options
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: Finished Parsing Command Line Options
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: StudyFolder: /home/mwagner/projects/hcp/Pipelines_ExampleData
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: Subject: 100307
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T1wInputImages: /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/unprocessed/3T/T1w_MPR1/100307_3T_T1w_MPR1.nii.gz@
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T2wInputImages: /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/unprocessed/3T/T2w_SPC1/100307_3T_T2w_SPC1.nii.gz@
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T1wTemplate: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T1_0.7mm.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T1wTemplateBrain: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T1_0.7mm_brain.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T1wTemplate2mm: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T1_2mm.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T2wTemplate: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T2_0.7mm.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T2wTemplateBrain: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T2_0.7mm_brain.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T2wTemplate2mm: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T2_2mm.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: TemplateMask: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T1_0.7mm_brain_mask.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: Template2mmMask: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T1_2mm_brain_mask_dil.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: BrainSize: 150
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: FNIRTConfig: /home/mwagner/projects/hcp/HCPPIPEDIR/global/config/T1_2_MNI152_2mm.cnf
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: MagnitudeInputName: /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/unprocessed/3T/T1w_MPR1/100307_3T_FieldMap_Magnitude.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: PhaseInputName: /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/unprocessed/3T/T1w_MPR1/100307_3T_FieldMap_Phase.nii.gz
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: GEB0InputName: NONE
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: TE: 2.46
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: SpinEchoPhaseEncodeNegative: NONE
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: SpinEchoPhaseEncodePositive: NONE
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: SEEchoSpacing: NONE
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: SEUnwarpDir: NONE
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T1wSampleSpacing: 0.0000074
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T2wSampleSpacing: 0.0000021
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: UnwarpDir: z
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: GradientDistortionCoeffs: NONE
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: AvgrdcSTRING: SiemensFieldMap
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: TopupConfig: NONE
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: BiasFieldSmoothingSigma: 
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: UseJacobian: true
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T1wBiasCorrect: 
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: CustomBrain: NONE
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: ProcessingMode: HCPStyleData
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T1wFolder: /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T1w
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: T2wFolder: /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T2w
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: AtlasSpaceFolder: /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/MNINonLinear
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T1w/xfms/
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T2w/xfms/
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/MNINonLinear/xfms/
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: POSIXLY_CORRECT=
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: Processing Modality: T1w
+Tue May 10 11:31:43 PDT 2022:PreFreeSurferPipeline.sh: NOT PERFORMING GRADIENT DISTORTION CORRECTION
+Tue May 10 11:31:48 PDT 2022:PreFreeSurferPipeline.sh: Not Averaging T1w Images
+Tue May 10 11:31:48 PDT 2022:PreFreeSurferPipeline.sh: ONLY ONE IMAGE FOUND: COPYING
+Tue May 10 11:31:49 PDT 2022:PreFreeSurferPipeline.sh: Aligning T1w image to /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T1_0.7mm.nii.gz to create native volume space
+Tue May 10 11:31:49 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T1w/ACPCAlignment
+Tue May 10 11:31:49 PDT 2022:ACPCAlignment.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+Tue May 10 11:31:49 PDT 2022:ACPCAlignment.sh: FSLDIR: /home/mwagner/bin/fsl
+Tue May 10 11:31:49 PDT 2022:ACPCAlignment.sh: START
+Final FOV is: 
+0.000000 256.000000 0.000000 320.000000 58.000000 214.000000 
+
+Tue May 10 11:33:39 PDT 2022:ACPCAlignment.sh: END
+Tue May 10 11:33:39 PDT 2022:PreFreeSurferPipeline.sh: Performing Brain Extraction using FNIRT-based Masking
+Tue May 10 11:33:39 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T1w/BrainExtraction_FNIRTbased
+Tue May 10 11:33:39 PDT 2022:BrainExtraction_FNIRTbased.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+Tue May 10 11:33:39 PDT 2022:BrainExtraction_FNIRTbased.sh: FSLDIR: /home/mwagner/bin/fsl
+Tue May 10 11:33:39 PDT 2022:BrainExtraction_FNIRTbased.sh: HCPPIPEDIR_Templates: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates
+Tue May 10 11:33:39 PDT 2022:BrainExtraction_FNIRTbased.sh: START: BrainExtraction_FNIRT
+Tue May 10 11:44:20 PDT 2022:BrainExtraction_FNIRTbased.sh: END: BrainExtraction_FNIRT
+Tue May 10 11:44:20 PDT 2022:PreFreeSurferPipeline.sh: Processing Modality: T2w
+Tue May 10 11:44:20 PDT 2022:PreFreeSurferPipeline.sh: NOT PERFORMING GRADIENT DISTORTION CORRECTION
+Tue May 10 11:44:23 PDT 2022:PreFreeSurferPipeline.sh: Not Averaging T2w Images
+Tue May 10 11:44:23 PDT 2022:PreFreeSurferPipeline.sh: ONLY ONE IMAGE FOUND: COPYING
+Tue May 10 11:44:24 PDT 2022:PreFreeSurferPipeline.sh: Aligning T2w image to /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates/MNI152_T2_0.7mm.nii.gz to create native volume space
+Tue May 10 11:44:24 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T2w/ACPCAlignment
+Tue May 10 11:44:24 PDT 2022:ACPCAlignment.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+Tue May 10 11:44:24 PDT 2022:ACPCAlignment.sh: FSLDIR: /home/mwagner/bin/fsl
+Tue May 10 11:44:24 PDT 2022:ACPCAlignment.sh: START
+Final FOV is: 
+0.000000 256.000000 0.000000 320.000000 60.000000 214.000000 
+
+Tue May 10 11:46:02 PDT 2022:ACPCAlignment.sh: END
+Tue May 10 11:46:02 PDT 2022:PreFreeSurferPipeline.sh: Performing Brain Extraction using FNIRT-based Masking
+Tue May 10 11:46:02 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T2w/BrainExtraction_FNIRTbased
+Tue May 10 11:46:02 PDT 2022:BrainExtraction_FNIRTbased.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+Tue May 10 11:46:02 PDT 2022:BrainExtraction_FNIRTbased.sh: FSLDIR: /home/mwagner/bin/fsl
+Tue May 10 11:46:02 PDT 2022:BrainExtraction_FNIRTbased.sh: HCPPIPEDIR_Templates: /home/mwagner/projects/hcp/HCPPIPEDIR/global/templates
+Tue May 10 11:46:02 PDT 2022:BrainExtraction_FNIRTbased.sh: START: BrainExtraction_FNIRT
+Tue May 10 11:56:36 PDT 2022:BrainExtraction_FNIRTbased.sh: END: BrainExtraction_FNIRT
+Tue May 10 11:56:36 PDT 2022:PreFreeSurferPipeline.sh: Performing SiemensFieldMap Readout Distortion Correction
+Tue May 10 11:56:36 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T2w/T2wToT1wDistortionCorrectAndReg
+Tue May 10 11:56:36 PDT 2022:T2wToT1wDistortionCorrectAndReg.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+Tue May 10 11:56:36 PDT 2022:T2wToT1wDistortionCorrectAndReg.sh: FSLDIR: /home/mwagner/bin/fsl
+Tue May 10 11:56:36 PDT 2022:T2wToT1wDistortionCorrectAndReg.sh: HCPPIPEDIR_Global: /home/mwagner/projects/hcp/HCPPIPEDIR/global/scripts
+Tue May 10 11:56:37 PDT 2022:T2wToT1wDistortionCorrectAndReg.sh: START
+ 
+ 
+ 
+FieldMapPreprocessingAll.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+FieldMapPreprocessingAll.sh: FSLDIR: /home/mwagner/bin/fsl
+FieldMapPreprocessingAll.sh: HCPPIPEDIR_Global: /home/mwagner/projects/hcp/HCPPIPEDIR/global/scripts
+Tue May 10 11:56:38 PDT 2022:FieldMapPreprocessingAll.sh: Field Map Preprocessing and Gradient Unwarping
+Tue May 10 11:56:38 PDT 2022:FieldMapPreprocessingAll.sh: START
+Loading volumes
+Phase loaded
+Magnitude loaded
+Mask loaded
+Rewrapping phase range to [-pi,pi]
+Number of phase splits = 8
+Calculating starting matrices (6143 by 6143)
+Finished connection_matrices
+18546 constraints left
+8771 constraints left
+6835 constraints left
+5338 constraints left
+3472 constraints left
+1841 constraints left
+192 constraints left
+Did while loop 6142 times
+Done. Created /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T2w/T2wToT1wDistortionCorrectAndReg/FieldMap/FieldMap for use with FEAT.
+Tue May 10 11:56:44 PDT 2022:FieldMapPreprocessingAll.sh: DONE: fsl_prepare_fieldmap.sh
+Tue May 10 11:56:46 PDT 2022:FieldMapPreprocessingAll.sh: Field Map Preprocessing and Gradient Unwarping
+Tue May 10 11:56:46 PDT 2022:FieldMapPreprocessingAll.sh: END
+Running FAST segmentation
+FLIRT pre-alignment
+Running BBR
+0.347956 0.999981 -0.006128 0.001073 0.000000 0.006168 0.999082 -0.042399 0.000000 -0.000813 0.042404 0.999100 0.000000 -1.303270 -3.381539 6.134600 1.000000 
+Tue May 10 12:13:17 PDT 2022:T2wToT1wDistortionCorrectAndReg.sh: END
+Tue May 10 12:13:17 PDT 2022:PreFreeSurferPipeline.sh: Performing Bias Field Correction using sqrt(T1w x T2w)
+Tue May 10 12:13:17 PDT 2022:PreFreeSurferPipeline.sh: mkdir -p /home/mwagner/projects/hcp/Pipelines_ExampleData/100307/T1w/BiasFieldCorrection_sqrtT1wXT2w
+Tue May 10 12:13:17 PDT 2022:BiasFieldCorrection_sqrtT1wXT2w.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+Tue May 10 12:13:17 PDT 2022:BiasFieldCorrection_sqrtT1wXT2w.sh: FSLDIR: /home/mwagner/bin/fsl
+Tue May 10 12:13:17 PDT 2022:BiasFieldCorrection_sqrtT1wXT2w.sh: CARET7DIR: /home/mwagner/bin/workbench/bin_linux64
+Tue May 10 12:13:17 PDT 2022:BiasFieldCorrection_sqrtT1wXT2w.sh: START: BiasFieldCorrection
+0.240758
+0.975645
+.8552660
+Tue May 10 12:15:05 PDT 2022:BiasFieldCorrection_sqrtT1wXT2w.sh: END: BiasFieldCorrection
+Tue May 10 12:15:05 PDT 2022:PreFreeSurferPipeline.sh: Creating one-step resampled version of {T1w,T2w}_acpc_dc outputs
+Tue May 10 12:19:44 PDT 2022:PreFreeSurferPipeline.sh: Performing Atlas Registration to MNI152 (FLIRT and FNIRT)
+Tue May 10 12:19:44 PDT 2022:AtlasRegistrationToMNI152_FLIRTandFNIRT.sh: HCPPIPEDIR: /home/mwagner/projects/hcp/HCPPIPEDIR
+Tue May 10 12:19:44 PDT 2022:AtlasRegistrationToMNI152_FLIRTandFNIRT.sh: FSLDIR: /home/mwagner/bin/fsl
+Tue May 10 12:19:45 PDT 2022:AtlasRegistrationToMNI152_FLIRTandFNIRT.sh: START: AtlasRegistration to MNI152
+Tue May 10 12:34:55 PDT 2022:AtlasRegistrationToMNI152_FLIRTandFNIRT.sh: END: AtlasRegistration to MNI152
+Tue May 10 12:34:55 PDT 2022:PreFreeSurferPipeline.sh: Completed!
